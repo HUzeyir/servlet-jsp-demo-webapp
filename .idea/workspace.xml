@@ -6,7 +6,13 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39d3a3fb-50ab-4d35-a604-9a0239f94ab1" name="Default" comment="" />
+    <list default="true" id="39d3a3fb-50ab-4d35-a604-9a0239f94ab1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mycompany/servlets/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mycompany/servlets/LoginUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mycompany/servlets/RegisterUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mycompany/servlets/RegisterUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mycompany/servlets/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mycompany/servlets/UserController.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +41,29 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mycompany/servlets/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+            <state relative-caret-position="340">
+              <caret line="40" column="53" lean-forward="true" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginSecurity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mycompany/filter/LoginSecurity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="22" column="68" lean-forward="true" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,8 +71,8 @@
       <file leaf-file-name="RegisterUser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mycompany/servlets/RegisterUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+            <state relative-caret-position="425">
+              <caret line="73" column="40" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,23 +80,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginUser.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoginUser.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/mycompany/servlets/LoginUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="384">
+              <caret line="38" column="50" lean-forward="true" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jspSecurity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/mycompany/filter/jspSecurity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -88,7 +106,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -104,8 +122,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/userAdd.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/javaScriptTest.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/javaScriptTest.jsp" />
-        <option value="$PROJECT_DIR$/../../../js test/index.html" />
-        <option value="$PROJECT_DIR$/../../../js test/main.js" />
+        <option value="$USER_HOME$/js test/index.html" />
+        <option value="$USER_HOME$/js test/main.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/js/main.js" />
         <option value="$PROJECT_DIR$/src/com/mycompany/servlets/UserServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/user.jsp" />
@@ -115,13 +133,13 @@
         <option value="$PROJECT_DIR$/src/main/webapp/assets/css/main.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
-        <option value="$PROJECT_DIR$/src/com/mycompany/servlets/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/register.jsp" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/com/mycompany/filter/LoginSecurity.java" />
-        <option value="$PROJECT_DIR$/src/com/mycompany/servlets/RegisterUser.java" />
-        <option value="$PROJECT_DIR$/src/com/mycompany/servlets/LoginUser.java" />
         <option value="$PROJECT_DIR$/src/com/mycompany/filter/jspSecurity.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/com/mycompany/servlets/RegisterUser.java" />
+        <option value="$PROJECT_DIR$/src/com/mycompany/servlets/UserController.java" />
+        <option value="$PROJECT_DIR$/src/com/mycompany/servlets/LoginUser.java" />
       </list>
     </option>
   </component>
@@ -158,10 +176,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="1592" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -173,37 +191,37 @@
         <subPane>
           <expand>
             <path>
-              <item name="servletjsptest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="servletjsptest" type="462c0819:PsiDirectoryNode" />
+              <item name="servletjspdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servletjspdemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="servletjsptest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="servletjsptest" type="462c0819:PsiDirectoryNode" />
+              <item name="servletjspdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servletjspdemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="servletjsptest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="servletjsptest" type="462c0819:PsiDirectoryNode" />
+              <item name="servletjspdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servletjspdemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="mycompany" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="servletjsptest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="servletjsptest" type="462c0819:PsiDirectoryNode" />
+              <item name="servletjspdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servletjspdemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="mycompany" type="462c0819:PsiDirectoryNode" />
               <item name="filter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="servletjsptest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="servletjsptest" type="462c0819:PsiDirectoryNode" />
+              <item name="servletjspdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servletjspdemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="mycompany" type="462c0819:PsiDirectoryNode" />
               <item name="servlets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="servletjsptest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="servletjsptest" type="462c0819:PsiDirectoryNode" />
+              <item name="servletjspdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servletjspdemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -211,9 +229,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -349,13 +367,13 @@
       </ConfigurationWrapper>
     </configuration>
     <configuration name="Tomcat 9.0.62" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.62" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/servletjsptest" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/servletjspdemo" />
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="servletjsptest:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/servletjsptest" />
+            <option name="CONTEXT_PATH" value="/servletjspdemo" />
           </settings>
         </artifact>
       </deployment>
@@ -518,6 +536,8 @@
       <workItem from="1650905308482" duration="2397000" />
       <workItem from="1650981363442" duration="8306000" />
       <workItem from="1651050640397" duration="3966000" />
+      <workItem from="1651072466604" duration="3487000" />
+      <workItem from="1651079002025" duration="3096000" />
     </task>
     <task id="LOCAL-00001" summary="update page updated">
       <created>1650367190670</created>
@@ -530,23 +550,22 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122248000" />
+    <option name="totallyTimeSpent" value="128831000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="1592" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3292683" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.18699187" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.24635416" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.31300813" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.29691517" />
       <window_info anchor="right" id="CDI" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="3" weight="0.32969153" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="JSF" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3116531" />
@@ -556,21 +575,21 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.3292683" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5292242" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28184283" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.2571732" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.73141485" visible="true" weight="0.16302083" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.73141485" visible="true" weight="0.17159383" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" sideWeight="0.26858515" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Dependency Viewer" order="8" weight="0.3292683" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -647,9 +666,9 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/mycompany/jdbctest/1.0/jdbctest-1.0.jar!/com/mycompany/daoInter/UserDaoInter.class" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/javaScriptTest.jsp" />
-    <entry file="file://$PROJECT_DIR$/../../../js test/main.css" />
-    <entry file="file://$PROJECT_DIR$/../../../js test/index.html" />
-    <entry file="file://$PROJECT_DIR$/../../../js test/main.js" />
+    <entry file="file://$USER_HOME$/js test/main.css" />
+    <entry file="file://$USER_HOME$/js test/index.html" />
+    <entry file="file://$USER_HOME$/js test/main.js" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -733,31 +752,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../jdbc-back-end/target/classes/com/mycompany/daoImpl/UserDaoImpl.class" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/mycompany/jdbc-back-end/1.0/jdbc-back-end-1.0.jar!/com/mycompany/context/Context.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
           <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -773,30 +771,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mycompany/servlets/RegisterUser.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mycompany/filter/jspSecurity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="476">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mycompany/filter/LoginSecurity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        <state relative-caret-position="336">
+          <caret line="22" column="68" lean-forward="true" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mycompany/servlets/LoginUser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mycompany/servlets/RegisterUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="73" column="40" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -805,15 +821,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mycompany/servlets/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+        <state relative-caret-position="340">
+          <caret line="40" column="53" lean-forward="true" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mycompany/filter/jspSecurity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mycompany/servlets/LoginUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        <state relative-caret-position="384">
+          <caret line="38" column="50" lean-forward="true" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

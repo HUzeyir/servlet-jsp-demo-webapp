@@ -33,8 +33,9 @@ public class RegisterUser extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        User user2 = udi.serchUserByEmail(req.getParameter("email"));
 
-        if (req.getParameter("email") != null) {
+        if (user2== null) {
 
             String name = req.getParameter("name");
             String surName = req.getParameter("surname");
@@ -70,9 +71,13 @@ public class RegisterUser extends HttpServlet {
             user.setPassword(password1);
             user.setAddDate(Timestamp.valueOf(LocalDateTime.now()));
             udi.addUser(user);
+            resp.sendRedirect("login.jsp");
+        }else{
+
+            resp.sendRedirect("register");
         }
 
-        resp.sendRedirect("user");
+
 
     }
 

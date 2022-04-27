@@ -20,7 +20,7 @@ public class LoginUser extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.sendRedirect("login");
+        resp.sendRedirect("login.jsp");
     }
 
     @Override
@@ -31,16 +31,17 @@ public class LoginUser extends HttpServlet {
         String password = req.getParameter("password");
 
         User user = udi.serchUserByEmail(email);
+        System.out.println(user);
 
         if (user != null) {
             HttpSession session = req.getSession();
-            session.setAttribute("loggedIn", user);
-            resp.sendRedirect("user");
+            session.setAttribute("loggidIn", user);
+            System.out.println("session created");
+//            resp.sendRedirect("user");
+            req.getRequestDispatcher("search.jsp").forward(req, resp);
         } else {
-
-
+            System.out.println("index called");
             resp.sendRedirect("index.html");
-            return;
         }
 
 

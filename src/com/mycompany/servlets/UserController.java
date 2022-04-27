@@ -30,7 +30,9 @@ public class UserController extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.sendRedirect("search.jsp");
+//        response.sendRedirect("search.jsp");
+        System.out.println("search page was called");
+        request.getRequestDispatcher("search.jsp").forward(request, response);
     }
 
     protected void delete(HttpServletRequest request, HttpServletResponse response) throws IOException {
