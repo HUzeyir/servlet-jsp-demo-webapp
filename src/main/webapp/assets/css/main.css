@@ -1,0 +1,40 @@
+body {
+
+    font-size: 16px;
+    color: darkblue;
+}
+
+.myContiner {
+
+    margin: 0px auto;
+    position: relative;
+}
+
+.search input {
+
+    border-radius: 9%;
+    margin-top: 5px;
+    width: 150px;
+}
+
+/*.forIcons{*/
+/*cursor: pointer;*/
+/*padding-left: 30px;*/
+/*}*/
+
+.fa-solid {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0px auto;
+}
+
+.row {
+    position: relative;
+    margin: 40px 200px;
+}
+
+.updateContainer{
+
+    margin: 20px 200px 0px 200px;
+}
+
