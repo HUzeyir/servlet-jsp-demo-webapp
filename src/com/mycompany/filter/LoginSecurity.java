@@ -21,9 +21,10 @@ public class LoginSecurity implements Filter {
 
 
         if (request.getSession().getAttribute("loggidIn") != null) {
-            filterChain.doFilter(request, response);
+            response.sendRedirect("user");
         } else {
-            response.sendRedirect("index.html");
+
+            filterChain.doFilter(request, response);
         }
 
     }

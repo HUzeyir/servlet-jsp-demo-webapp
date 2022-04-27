@@ -11,9 +11,11 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.sql.Timestamp;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
 import java.util.Date;
 
 @WebServlet(name = "RegisterUser", urlPatterns = {"/register"})
@@ -44,7 +46,7 @@ public class RegisterUser extends HttpServlet {
             DateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
 
             java.sql.Date age = null;
-            Date date;
+            java.util.Date date;
             try {
                 date = formatter.parse(ageString);
                 age = new java.sql.Date(date.getTime());
@@ -66,6 +68,7 @@ public class RegisterUser extends HttpServlet {
             user.setAge(age);
             user.setEmail(email);
             user.setPassword(password1);
+            user.setAddDate(Timestamp.valueOf(LocalDateTime.now()));
             udi.addUser(user);
         }
 

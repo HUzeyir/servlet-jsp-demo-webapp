@@ -44,12 +44,6 @@ public class LoginUser extends HttpServlet {
         }
 
 
-        System.out.println(user);
-
-
-        resp.sendRedirect("index.html");
-
-
     }
 
 }
