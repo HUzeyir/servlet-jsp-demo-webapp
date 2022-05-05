@@ -51,6 +51,7 @@
 
 <div class="myContainer container">
 
+    <%--<% User user = (User) session.getAttribute("loggedIn"); out.print("Wellcome" + user.getName());%>--%>
     <div class="row">
         <%--form--%>
         <div class="col col=lg-4 col-md-4">
@@ -74,7 +75,7 @@
                 <button class="btn btn-primary" type="submit">Add<i class="fa-solid fa-user-plus"></i>
                 </button>
             </form>
-            <form action="login.jsp">
+            <form action="logout" method="get">
                 <button class="btn btn-primary" type="submit">Sign out<i class="fa-solid fa-right-from-bracket"></i>
                 </button>
             </form>
@@ -103,7 +104,8 @@
                         <%--delete--%>
                         <form action="user" method="post">
                             <div style="float: left; margin-right: 10px">
-                                <button onclick="forDeleteFunction('<%= users.get(i).getUserId() %>')" type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <button onclick="forDeleteFunction('<%= users.get(i).getUserId() %>')" type="button"
+                                        class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                     <i class="fa-solid fa-user-minus"> </i>
                                 </button>
                             </div>

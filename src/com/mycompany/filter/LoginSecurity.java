@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebFilter(filterName = "LoginSecurity", urlPatterns = "/*")
+@WebFilter(filterName = "LoginSecurity", urlPatterns = {"/*"})
 public class LoginSecurity implements Filter {
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
@@ -20,10 +20,11 @@ public class LoginSecurity implements Filter {
         HttpServletResponse response = (HttpServletResponse) servletResponse;
 
 
-        if (request.getSession().getAttribute("loggidIn") != null) {
-            response.sendRedirect("user");
+        if (!request.getRequestURI().contains("login") && request.getSession().getAttribute("loggidIn") == null) {
+            System.out.println("redirected to login servlet");
+            response.sendRedirect("login");
         } else {
-
+            System.out.println("filterChain doFilter worked");
             filterChain.doFilter(request, response);
         }
 

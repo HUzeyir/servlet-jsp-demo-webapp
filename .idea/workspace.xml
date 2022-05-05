@@ -7,11 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39d3a3fb-50ab-4d35-a604-9a0239f94ab1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/mycompany/servlets/LogOut.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mycompany/filter/LoginSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mycompany/filter/LoginSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mycompany/filter/jspSecurity.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/mycompany/servlets/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mycompany/servlets/LoginUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mycompany/servlets/RegisterUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mycompany/servlets/RegisterUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mycompany/servlets/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mycompany/servlets/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/search.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,8 +43,17 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mycompany/servlets/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="40" column="53" lean-forward="true" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+            <state relative-caret-position="238">
+              <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ErrorController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mycompany/servlets/ErrorController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -50,8 +61,8 @@
       <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+            <state relative-caret-position="374">
+              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -59,8 +70,8 @@
       <file leaf-file-name="LoginSecurity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mycompany/filter/LoginSecurity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="22" column="68" lean-forward="true" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+            <state relative-caret-position="272">
+              <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,7 +82,7 @@
       <file leaf-file-name="RegisterUser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mycompany/servlets/RegisterUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="510">
               <caret line="73" column="40" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -83,11 +94,41 @@
       <file leaf-file-name="LoginUser.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/mycompany/servlets/LoginUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="38" column="50" lean-forward="true" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+            <state relative-caret-position="138">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogOut.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mycompany/servlets/LogOut.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/search.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="77" column="26" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -134,11 +175,13 @@
         <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/register.jsp" />
-        <option value="$PROJECT_DIR$/src/com/mycompany/filter/LoginSecurity.java" />
         <option value="$PROJECT_DIR$/src/com/mycompany/filter/jspSecurity.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/com/mycompany/servlets/RegisterUser.java" />
         <option value="$PROJECT_DIR$/src/com/mycompany/servlets/UserController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/com/mycompany/filter/LoginSecurity.java" />
+        <option value="$PROJECT_DIR$/src/com/mycompany/servlets/LogOut.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/search.jsp" />
         <option value="$PROJECT_DIR$/src/com/mycompany/servlets/LoginUser.java" />
       </list>
     </option>
@@ -175,8 +218,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1592" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1616" />
     <option name="height" value="876" />
@@ -225,13 +268,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="servletjspdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servletjspdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -538,6 +588,8 @@
       <workItem from="1651050640397" duration="3966000" />
       <workItem from="1651072466604" duration="3487000" />
       <workItem from="1651079002025" duration="3096000" />
+      <workItem from="1651152585655" duration="49000" />
+      <workItem from="1651760568063" duration="9227000" />
     </task>
     <task id="LOCAL-00001" summary="update page updated">
       <created>1650367190670</created>
@@ -550,10 +602,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128831000" />
+    <option name="totallyTimeSpent" value="138107000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1592" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3292683" />
@@ -576,17 +629,17 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.3292683" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28184283" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26422763" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.2571732" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.73141485" visible="true" weight="0.17159383" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" sideWeight="0.26858515" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Dependency Viewer" order="8" weight="0.3292683" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -612,9 +665,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/src/com/mycompany/servlets/UserController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/search.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
     <entry file="file://$PROJECT_DIR$/pom.xml" />
@@ -721,13 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/search.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/mycompany/jdbctest/1.0/jdbctest-1.0.jar!/com/mycompany/context/Context.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/mycompany/jdbctest/1.0/jdbctest-1.0.jar!/com/mycompany/daoImpl/UserDaoImpl.class" />
     <entry file="file://$PROJECT_DIR$/../jdbc-back-end/pom.xml">
@@ -764,13 +807,6 @@
         <state relative-caret-position="-3009" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mycompany/servlets/ErrorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mycompany/filter/jspSecurity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -778,40 +814,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mycompany/filter/LoginSecurity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="22" column="68" lean-forward="true" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        <state relative-caret-position="374">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/servlet/Filter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../testwebapp/webapptest/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mycompany/servlets/RegisterUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="510">
           <caret line="73" column="40" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -819,17 +850,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mycompany/servlets/ErrorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mycompany/servlets/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="40" column="53" lean-forward="true" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+        <state relative-caret-position="238">
+          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/search.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="77" column="26" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mycompany/servlets/LogOut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mycompany/filter/LoginSecurity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mycompany/servlets/LoginUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="38" column="50" lean-forward="true" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+        <state relative-caret-position="138">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
