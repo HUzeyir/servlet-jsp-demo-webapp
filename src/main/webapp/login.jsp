@@ -55,7 +55,7 @@
             <!-- Register buttons -->
             <div class="text-center">
 
-                <p>Not a member? <a name="" href="register">Register</a></p>
+                <p>Not a member? <a href="register">Register</a></p>
 
                 <p>or sign up with:</p>
 

@@ -72,9 +72,9 @@ public class RegisterUser extends HttpServlet {
             user.setAddDate(Timestamp.valueOf(LocalDateTime.now()));
             udi.addUser(user);
             resp.sendRedirect("login.jsp");
+            System.out.println("Registered Sucessufully");
         }else{
-
-            resp.sendRedirect("register");
+            resp.sendRedirect("login");
         }
 
 

@@ -56,7 +56,7 @@
                                     </button>
                                 </div>
 
-                                <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="register" class="fw-bold text-body"><u>Login
+                                <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="login" class="fw-bold text-body"><u>Login
                                     here</u></a></p>
 
                             </form>

@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.mycompany</groupId>
-    <artifactId>servletjspdemo</artifactId>
+    <artifactId>servlet-jsp-demo-webapp-with-jdbc</artifactId>
     <version>1.0</version>
     <packaging>war</packaging>
 

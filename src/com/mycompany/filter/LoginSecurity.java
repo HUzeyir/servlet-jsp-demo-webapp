@@ -20,11 +20,11 @@ public class LoginSecurity implements Filter {
         HttpServletResponse response = (HttpServletResponse) servletResponse;
 
 
-        if (!request.getRequestURI().contains("login") && request.getSession().getAttribute("loggidIn") == null) {
-            System.out.println("redirected to login servlet");
+        if (!request.getRequestURI().contains("login") && !request.getRequestURI().contains("register") && request.getSession().getAttribute("loggidIn") == null) {
+            System.out.println("redirected to login servlet / login ve register olmadan sayta girmeye caht");
             response.sendRedirect("login");
         } else {
-            System.out.println("filterChain doFilter worked");
+            System.out.println("filterChain doFilter worked / login ve ya register sehifesine kecide icaze verildi");
             filterChain.doFilter(request, response);
         }
 

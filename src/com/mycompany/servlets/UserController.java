@@ -52,7 +52,7 @@ public class UserController extends HttpServlet {
     protected void sendUserForUpdatePage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         int updateId = Integer.parseInt(request.getParameter("update"));
         User user = udi.getUserbyId(updateId);
-
+        System.out.println("was update user found?????????????????????????????"+user);
         request.setAttribute("user", user);
         request.getRequestDispatcher("update.jsp").forward(request, response);
     }
